@@ -1,8 +1,8 @@
 # Bob's Palm Landscaping Services
 
-<h1>Welcome to Bob's first iOS application!</h1>
+<h3>Welcome to Bob's first iOS application!</h3>
 
-<h2><strong> ** If you're running this application in the iOS simulator then please use "iPhone 5S". This application is only optimized for the "iPhone 5S"! Don't worry, there will be more developments as the project continues! Enjoy! :D </strong></h2>
+<h4><strong> ** If you're running this application in the iOS simulator then please use "iPhone 5S". This application is only optimized for the "iPhone 5S"! Don't worry, there will be more developments as the project continues! Enjoy! :D </strong></h4>
 
 </br></br>
 
