@@ -6,6 +6,8 @@
 
 <strong>Enjoy! :D</strong>
 
+Oh! Here are the bonus questions: https://www.dropbox.com/s/89sbkilwbc3uwui/Bonus_Questions.pdf?dl=0
+
 </br>
 
 ![splash](https://cloud.githubusercontent.com/assets/11342527/7515132/09e1d6c6-f479-11e4-8aa6-5cb5d8908d12.png)
