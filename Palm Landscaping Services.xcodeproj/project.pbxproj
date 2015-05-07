@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		89760EDD1AF8B0BA009E8DC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760EDC1AF8B0BA009E8DC6 /* main.m */; };
 		89760EE01AF8B0BA009E8DC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760EDF1AF8B0BA009E8DC6 /* AppDelegate.m */; };
-		89760EE31AF8B0BA009E8DC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760EE21AF8B0BA009E8DC6 /* ViewController.m */; };
+		89760EE31AF8B0BA009E8DC6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760EE21AF8B0BA009E8DC6 /* LoginViewController.m */; };
 		89760EE61AF8B0BA009E8DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89760EE41AF8B0BA009E8DC6 /* Main.storyboard */; };
 		89760EE81AF8B0BA009E8DC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89760EE71AF8B0BA009E8DC6 /* Images.xcassets */; };
 		89760EEB1AF8B0BA009E8DC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89760EE91AF8B0BA009E8DC6 /* LaunchScreen.xib */; };
 		89760EF71AF8B0BB009E8DC6 /* Palm_Landscaping_ServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760EF61AF8B0BB009E8DC6 /* Palm_Landscaping_ServicesTests.m */; };
+		89760F091AF8B31C009E8DC6 /* LoginData.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760F081AF8B31C009E8DC6 /* LoginData.m */; };
+		89760F0C1AF8B35D009E8DC6 /* UIColor+AppAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760F0B1AF8B35D009E8DC6 /* UIColor+AppAdditions.m */; };
+		89760F0E1AF8EBF1009E8DC6 /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89760F0D1AF8EBF1009E8DC6 /* Admin.storyboard */; };
+		89760F101AF8EC02009E8DC6 /* Employee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89760F0F1AF8EC02009E8DC6 /* Employee.storyboard */; };
+		89760F161AF8EDC6009E8DC6 /* AdminTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760F151AF8EDC6009E8DC6 /* AdminTableViewController.m */; };
+		89760F191AF8EFF1009E8DC6 /* EmployeeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760F181AF8EFF1009E8DC6 /* EmployeeTableViewController.m */; };
+		89760F1C1AF8FD0D009E8DC6 /* JobsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760F1B1AF8FD0D009E8DC6 /* JobsList.m */; };
+		89760F271AF9F135009E8DC6 /* companyFour.png in Resources */ = {isa = PBXBuildFile; fileRef = 89760F231AF9F135009E8DC6 /* companyFour.png */; };
+		89760F281AF9F135009E8DC6 /* companyOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 89760F241AF9F135009E8DC6 /* companyOne.png */; };
+		89760F291AF9F135009E8DC6 /* CompanyThree.png in Resources */ = {isa = PBXBuildFile; fileRef = 89760F251AF9F135009E8DC6 /* CompanyThree.png */; };
+		89760F2A1AF9F135009E8DC6 /* companyTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 89760F261AF9F135009E8DC6 /* companyTwo.png */; };
+		89760F2D1AF9FF16009E8DC6 /* JobsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760F2C1AF9FF16009E8DC6 /* JobsDetailViewController.m */; };
+		89760F301AFA4066009E8DC6 /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760F2F1AFA4066009E8DC6 /* DataHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +45,34 @@
 		89760EDC1AF8B0BA009E8DC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89760EDE1AF8B0BA009E8DC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89760EDF1AF8B0BA009E8DC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		89760EE11AF8B0BA009E8DC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		89760EE21AF8B0BA009E8DC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89760EE11AF8B0BA009E8DC6 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "../Palm Landscaping Services/Controllers/LoginViewController.h"; sourceTree = "<group>"; };
+		89760EE21AF8B0BA009E8DC6 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = "../Palm Landscaping Services/Controllers/LoginViewController.m"; sourceTree = "<group>"; };
 		89760EE51AF8B0BA009E8DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89760EE71AF8B0BA009E8DC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89760EEA1AF8B0BA009E8DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		89760EF01AF8B0BA009E8DC6 /* Palm Landscaping ServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palm Landscaping ServicesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89760EF51AF8B0BB009E8DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89760EF61AF8B0BB009E8DC6 /* Palm_Landscaping_ServicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Palm_Landscaping_ServicesTests.m; sourceTree = "<group>"; };
+		89760F071AF8B31C009E8DC6 /* LoginData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginData.h; sourceTree = "<group>"; };
+		89760F081AF8B31C009E8DC6 /* LoginData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginData.m; sourceTree = "<group>"; };
+		89760F0A1AF8B35D009E8DC6 /* UIColor+AppAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppAdditions.h"; sourceTree = "<group>"; };
+		89760F0B1AF8B35D009E8DC6 /* UIColor+AppAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppAdditions.m"; sourceTree = "<group>"; };
+		89760F0D1AF8EBF1009E8DC6 /* Admin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Admin.storyboard; path = Storyboards/Admin.storyboard; sourceTree = "<group>"; };
+		89760F0F1AF8EC02009E8DC6 /* Employee.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Employee.storyboard; path = Storyboards/Employee.storyboard; sourceTree = "<group>"; };
+		89760F141AF8EDC6009E8DC6 /* AdminTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminTableViewController.h; sourceTree = "<group>"; };
+		89760F151AF8EDC6009E8DC6 /* AdminTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminTableViewController.m; sourceTree = "<group>"; };
+		89760F171AF8EFF1009E8DC6 /* EmployeeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeTableViewController.h; sourceTree = "<group>"; };
+		89760F181AF8EFF1009E8DC6 /* EmployeeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeTableViewController.m; sourceTree = "<group>"; };
+		89760F1A1AF8FD0D009E8DC6 /* JobsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsList.h; sourceTree = "<group>"; };
+		89760F1B1AF8FD0D009E8DC6 /* JobsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsList.m; sourceTree = "<group>"; };
+		89760F231AF9F135009E8DC6 /* companyFour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = companyFour.png; path = Assets/companyFour.png; sourceTree = "<group>"; };
+		89760F241AF9F135009E8DC6 /* companyOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = companyOne.png; path = Assets/companyOne.png; sourceTree = "<group>"; };
+		89760F251AF9F135009E8DC6 /* CompanyThree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CompanyThree.png; path = Assets/CompanyThree.png; sourceTree = "<group>"; };
+		89760F261AF9F135009E8DC6 /* companyTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = companyTwo.png; path = Assets/companyTwo.png; sourceTree = "<group>"; };
+		89760F2B1AF9FF16009E8DC6 /* JobsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsDetailViewController.h; sourceTree = "<group>"; };
+		89760F2C1AF9FF16009E8DC6 /* JobsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsDetailViewController.m; sourceTree = "<group>"; };
+		89760F2E1AFA4066009E8DC6 /* DataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHelper.h; sourceTree = "<group>"; };
+		89760F2F1AFA4066009E8DC6 /* DataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +114,15 @@
 		89760ED91AF8B0BA009E8DC6 /* Palm Landscaping Services */ = {
 			isa = PBXGroup;
 			children = (
+				89760F221AF9F126009E8DC6 /* Assets */,
 				89760EDE1AF8B0BA009E8DC6 /* AppDelegate.h */,
 				89760EDF1AF8B0BA009E8DC6 /* AppDelegate.m */,
-				89760EE11AF8B0BA009E8DC6 /* ViewController.h */,
-				89760EE21AF8B0BA009E8DC6 /* ViewController.m */,
-				89760EE41AF8B0BA009E8DC6 /* Main.storyboard */,
 				89760EE71AF8B0BA009E8DC6 /* Images.xcassets */,
 				89760EE91AF8B0BA009E8DC6 /* LaunchScreen.xib */,
+				89760F031AF8B184009E8DC6 /* Storyboards */,
+				89760F001AF8B16B009E8DC6 /* Views */,
+				89760F011AF8B16B009E8DC6 /* Models */,
+				89760F021AF8B16B009E8DC6 /* Controllers */,
 				89760EDA1AF8B0BA009E8DC6 /* Supporting Files */,
 			);
 			path = "Palm Landscaping Services";
@@ -117,6 +152,67 @@
 				89760EF51AF8B0BB009E8DC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89760F001AF8B16B009E8DC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89760F0A1AF8B35D009E8DC6 /* UIColor+AppAdditions.h */,
+				89760F0B1AF8B35D009E8DC6 /* UIColor+AppAdditions.m */,
+			);
+			name = Views;
+			path = "../Palm Landscaping Services.xcodeproj";
+			sourceTree = "<group>";
+		};
+		89760F011AF8B16B009E8DC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89760F071AF8B31C009E8DC6 /* LoginData.h */,
+				89760F081AF8B31C009E8DC6 /* LoginData.m */,
+				89760F1A1AF8FD0D009E8DC6 /* JobsList.h */,
+				89760F1B1AF8FD0D009E8DC6 /* JobsList.m */,
+				89760F2E1AFA4066009E8DC6 /* DataHelper.h */,
+				89760F2F1AFA4066009E8DC6 /* DataHelper.m */,
+			);
+			name = Models;
+			path = "../Palm Landscaping Services.xcodeproj";
+			sourceTree = "<group>";
+		};
+		89760F021AF8B16B009E8DC6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89760EE11AF8B0BA009E8DC6 /* LoginViewController.h */,
+				89760EE21AF8B0BA009E8DC6 /* LoginViewController.m */,
+				89760F141AF8EDC6009E8DC6 /* AdminTableViewController.h */,
+				89760F151AF8EDC6009E8DC6 /* AdminTableViewController.m */,
+				89760F171AF8EFF1009E8DC6 /* EmployeeTableViewController.h */,
+				89760F181AF8EFF1009E8DC6 /* EmployeeTableViewController.m */,
+				89760F2B1AF9FF16009E8DC6 /* JobsDetailViewController.h */,
+				89760F2C1AF9FF16009E8DC6 /* JobsDetailViewController.m */,
+			);
+			name = Controllers;
+			path = "../Palm Landscaping Services.xcodeproj";
+			sourceTree = "<group>";
+		};
+		89760F031AF8B184009E8DC6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				89760EE41AF8B0BA009E8DC6 /* Main.storyboard */,
+				89760F0D1AF8EBF1009E8DC6 /* Admin.storyboard */,
+				89760F0F1AF8EC02009E8DC6 /* Employee.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		89760F221AF9F126009E8DC6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				89760F231AF9F135009E8DC6 /* companyFour.png */,
+				89760F241AF9F135009E8DC6 /* companyOne.png */,
+				89760F251AF9F135009E8DC6 /* CompanyThree.png */,
+				89760F261AF9F135009E8DC6 /* companyTwo.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +295,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89760F2A1AF9F135009E8DC6 /* companyTwo.png in Resources */,
+				89760F291AF9F135009E8DC6 /* CompanyThree.png in Resources */,
+				89760F271AF9F135009E8DC6 /* companyFour.png in Resources */,
+				89760F101AF8EC02009E8DC6 /* Employee.storyboard in Resources */,
+				89760F281AF9F135009E8DC6 /* companyOne.png in Resources */,
+				89760F0E1AF8EBF1009E8DC6 /* Admin.storyboard in Resources */,
 				89760EE61AF8B0BA009E8DC6 /* Main.storyboard in Resources */,
 				89760EEB1AF8B0BA009E8DC6 /* LaunchScreen.xib in Resources */,
 				89760EE81AF8B0BA009E8DC6 /* Images.xcassets in Resources */,
@@ -219,9 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89760EE31AF8B0BA009E8DC6 /* ViewController.m in Sources */,
+				89760F161AF8EDC6009E8DC6 /* AdminTableViewController.m in Sources */,
+				89760F091AF8B31C009E8DC6 /* LoginData.m in Sources */,
+				89760EE31AF8B0BA009E8DC6 /* LoginViewController.m in Sources */,
 				89760EE01AF8B0BA009E8DC6 /* AppDelegate.m in Sources */,
+				89760F2D1AF9FF16009E8DC6 /* JobsDetailViewController.m in Sources */,
+				89760F301AFA4066009E8DC6 /* DataHelper.m in Sources */,
 				89760EDD1AF8B0BA009E8DC6 /* main.m in Sources */,
+				89760F0C1AF8B35D009E8DC6 /* UIColor+AppAdditions.m in Sources */,
+				89760F191AF8EFF1009E8DC6 /* EmployeeTableViewController.m in Sources */,
+				89760F1C1AF8FD0D009E8DC6 /* JobsList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +527,7 @@
 				89760EFC1AF8B0BB009E8DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89760EFD1AF8B0BB009E8DC6 /* Build configuration list for PBXNativeTarget "Palm Landscaping ServicesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +536,7 @@
 				89760EFF1AF8B0BB009E8DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

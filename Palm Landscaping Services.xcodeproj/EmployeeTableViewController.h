@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class JobsList;
+
 @interface EmployeeTableViewController : UITableViewController
+
+//Instance properties
+@property (strong, nonatomic) JobsList *jobsList;
 
 @end

@@ -10,4 +10,10 @@
 
 @interface UIColor (AppAdditions)
 
+
+//Class methods
++ (UIColor *) appBGColor;
++ (UIColor *) tableViewCellColor;
++ (UIColor *) appFlairColor;
+
 @end

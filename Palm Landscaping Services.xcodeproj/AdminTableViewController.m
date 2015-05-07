@@ -7,6 +7,10 @@
 //
 
 #import "AdminTableViewController.h"
+#import "JobsList.h"
+#import "JobsDetailViewController.h"
+#import "UIColor+AppAdditions.h"
+#import "DataHelper.h"
 
 @interface AdminTableViewController ()
 
@@ -17,84 +21,116 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    //Change color properties on UINavigationBar & set navigation title
+    [self.navigationController.navigationBar
+     setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor darkGrayColor]}];
+    self.title = kTitle;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //Add UIBarButtonItem to UINavigationBar
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Graph"
+                                                            style:UIBarButtonItemStylePlain
+                                                            target:nil
+                                                            action:nil];
+    rightButton.tintColor = [UIColor darkGrayColor];
+    self.navigationItem.rightBarButtonItem = rightButton;
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    
+    //Return number of elements in array to assign number of cells to UITableView
+    self.jobsList = [[JobsList alloc] init];
+    return [self.jobsList.jobsDictionary count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    // Configure the cell...
+    static NSString *cellIdentifier = @"UITableViewCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    
+    //Data Helper instance to access arrays to insert data into appropriate element.
+    self.dataHelper = [[DataHelper alloc] init];
+    
+    UILabel *jobType = (UILabel *)[cell viewWithTag:4];
+    jobType.text = self.dataHelper.jobTypeArray[indexPath.row];
+    
+    UILabel *date = (UILabel *)[cell viewWithTag:2];
+    date.text = self.dataHelper.dateArray[indexPath.row];
+    
+    UILabel *site = (UILabel *)[cell viewWithTag:3];
+    site.text = self.dataHelper.siteArray[indexPath.row];
+    
+    UILabel *subcontractor = (UILabel *)[cell viewWithTag:1];
+    subcontractor.text = self.dataHelper.subcontractorArray[indexPath.row];
+    
+    UILabel *status = (UILabel *)[cell viewWithTag:5];
+    status.text = self.dataHelper.statusArray[indexPath.row];
+    
+    UIImageView *thumbnail = (UIImageView *)[cell viewWithTag:6];
+    NSString *imageString = [self.dataHelper.imageNamesArray objectAtIndex:indexPath.row];
+    thumbnail.image = [UIImage imageNamed:imageString];
+    
+    //Alternate cell bakground color in table view
+    if (indexPath.row % 2) {
+        
+        cell.contentView.backgroundColor = [UIColor tableViewCellColor];
+    } else {
+        
+        cell.contentView.backgroundColor = [UIColor whiteColor];
+    }
     
     return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    //Segue to corresponding view upon selecting UITableViewCell
+    [self performSegueWithIdentifier:@"showDetail" sender:self];
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+
+        //Create JobsDetailViewController instance to access its properties
+        self.jobsDetailViewController = (JobsDetailViewController *)segue.destinationViewController;
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        
+       //Data Helper instance to access arrays to insert data into appropriate element upon selecting row.
+        self.dataHelper = [[DataHelper alloc] init];
+        
+        //Pass data to JobsDetailViewController based on the cell selected.
+        _jobsDetailViewController.dateText = [self.dataHelper.dateArray objectAtIndex:indexPath.row];
+        _jobsDetailViewController.jobText = [self.dataHelper.jobTypeArray objectAtIndex:indexPath.row];
+        _jobsDetailViewController.hoursText = [self.dataHelper.hoursArray objectAtIndex:indexPath.row];
+        _jobsDetailViewController.siteText = [self.dataHelper.siteArray objectAtIndex:indexPath.row];
+        _jobsDetailViewController.verfiedText = [self.dataHelper.verifiedArray objectAtIndex:indexPath.row];
+        _jobsDetailViewController.subcontractorText = [self.dataHelper.subcontractorArray objectAtIndex:indexPath.row];
+        _jobsDetailViewController.statusText = [self.dataHelper.statusArray objectAtIndex:indexPath.row];
+        _jobsDetailViewController.phoneText = [self.dataHelper.phoneArray objectAtIndex:indexPath.row];
+        _jobsDetailViewController.completeDateText = [self.dataHelper.completeDateArray objectAtIndex:indexPath.row];
+        _jobsDetailViewController.imageNameText = [self.dataHelper.imageNamesArray objectAtIndex:indexPath.row];
+    }
+    
+    
 }
-*/
+
 
 @end

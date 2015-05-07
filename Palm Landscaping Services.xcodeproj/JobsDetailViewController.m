@@ -7,6 +7,7 @@
 //
 
 #import "JobsDetailViewController.h"
+#import "UIColor+AppAdditions.h"
 
 @interface JobsDetailViewController ()
 
@@ -16,7 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    //Change view element colors
+    self.view.backgroundColor = [UIColor appBGColor];
+    self.logoImageView.image = [UIImage imageNamed:@"companyOne.png"];
+
+    
+    //Assign text properties passed from AdminTableViewController to UILabel
+    _jobValueLabel.text = _jobText;
+    _dateValueLabel.text = _dateText;
+    _verifiedValueLabel.text = _verfiedText;
+    _siteValueLabel.text = _siteText;
+    _hoursValueLabel.text = _hoursText;
+    _subcontractorValueLabel.text = _subcontractorText;
+    _statusValueLabel.text = _statusText;
+    _phoneValueLabel.text = _phoneText;
+    _completeDate.text = _completeDateText;
+    _logoImageView.image = [UIImage imageNamed:_imageNameText];
 }
 
 - (void)didReceiveMemoryWarning {
