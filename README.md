@@ -4,6 +4,11 @@
 
 <strong> ** If you're running this application in the iOS simulator then please use "iPhone 5S". This application is only optimized for the "iPhone 5S"! Don't worry, there will be more developments as the project continues!</strong>
 
+<strong>LOGIN CREDENTIALS</strong>
+
+username: bob
+password: password
+
 <strong>Enjoy! :D</strong>
 
 Here's my "post-mortem": https://www.dropbox.com/s/aehtqq5t1yzckoy/Summary.pdf?dl=0
