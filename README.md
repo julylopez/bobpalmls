@@ -6,6 +6,8 @@
 
 <strong>Enjoy! :D</strong>
 
+Here's my "post-mortem": https://www.dropbox.com/s/aehtqq5t1yzckoy/Summary.pdf?dl=0
+
 Oh! Here are the bonus questions: https://www.dropbox.com/s/89sbkilwbc3uwui/Bonus_Questions.pdf?dl=0
 
 </br>
