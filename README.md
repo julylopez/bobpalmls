@@ -6,8 +6,8 @@
 
 <strong>LOGIN CREDENTIALS</strong>
 
-username: bob
-password: password
+<p>username: bob</p>
+<p>password: password</p>
 
 <strong>Enjoy! :D</strong>
 
