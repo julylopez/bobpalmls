@@ -25,7 +25,7 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="3h2-af-HyJ">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palmTree.png" translatesAutoresizingMaskIntoConstraints="NO" id="3h2-af-HyJ">
                     <rect key="frame" x="180" y="12" width="120" height="120"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="120" id="GiK-42-AOk"/>
@@ -64,6 +64,6 @@
         </view>
     </objects>
     <resources>
-        <image name="Logo" width="256" height="256"/>
+        <image name="palmTree.png" width="256" height="256"/>
     </resources>
 </document>

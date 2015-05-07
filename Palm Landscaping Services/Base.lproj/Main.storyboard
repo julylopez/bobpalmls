@@ -156,7 +156,7 @@
                                     <action selector="textFieldReturn:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="upU-FN-owg"/>
                                 </connections>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="5Lw-HH-PuG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palmTree.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Lw-HH-PuG">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="WOz-HS-ihj"/>
@@ -333,6 +333,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo" width="256" height="256"/>
+        <image name="palmTree.png" width="256" height="256"/>
     </resources>
 </document>
