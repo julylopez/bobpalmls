@@ -22,7 +22,12 @@
 }
 + (UIColor *) appFlairColor{
     
-    return [UIColor colorWithRed:255/255.0 green:128/255.0 blue:0/255.0 alpha:0.2];
+    return [UIColor colorWithRed:255/255.0 green:128/255.0 blue:0/255.0 alpha:1.0];
+}
+
++ (UIColor *) palmGreyColor{
+    
+    return [UIColor colorWithRed:199/255.0 green:199/255.0 blue:199/255.0 alpha:1.0];
 }
 
 @end

@@ -13,7 +13,6 @@ NSString *const kPassword = @"password";
 NSString *const kFirstName = @"firstName";
 NSString *const kLastName = @"lastName";
 NSString *const kUserType = @"userType";
-
 NSString *const kAdmin = @"Admin";
 NSString *const kEmployee = @"Employee";
 

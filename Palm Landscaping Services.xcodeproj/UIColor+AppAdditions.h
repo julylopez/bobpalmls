@@ -14,6 +14,7 @@
 //Class methods
 + (UIColor *) appBGColor;
 + (UIColor *) tableViewCellColor;
++ (UIColor *) palmGreyColor;
 + (UIColor *) appFlairColor;
 
 @end

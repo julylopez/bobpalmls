@@ -1,23 +1,22 @@
 //
-//  TabBarViewController.m
+//  SiteAViewController.m
 //  Palm Landscaping Services
 //
 //  Created by Julio Lopez on 5/7/15.
 //  Copyright (c) 2015 yottalore. All rights reserved.
 //
 
-#import "TabBarViewController.h"
+#import "SiteAViewController.h"
 
-@interface TabBarViewController ()
+@interface SiteAViewController ()
 
 @end
 
-@implementation TabBarViewController
+@implementation SiteAViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,4 +34,8 @@
 }
 */
 
+- (IBAction)closeButtonPressed:(id)sender {
+    
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
 @end

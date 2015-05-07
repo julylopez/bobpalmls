@@ -29,9 +29,10 @@
     //Add UIBarButtonItem to UINavigationBar
     UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Graph"
                                                             style:UIBarButtonItemStylePlain
-                                                            target:nil
-                                                            action:nil];
+                                                            target:self
+                                                            action:@selector(openGraph)];
     rightButton.tintColor = [UIColor darkGrayColor];
+    rightButton.image = [UIImage imageNamed:@"graph.png"];
     self.navigationItem.rightBarButtonItem = rightButton;
     
 }
@@ -83,15 +84,6 @@
     NSString *imageString = [self.dataHelper.imageNamesArray objectAtIndex:indexPath.row];
     thumbnail.image = [UIImage imageNamed:imageString];
     
-    //Alternate cell bakground color in table view
-    if (indexPath.row % 2) {
-        
-        cell.contentView.backgroundColor = [UIColor tableViewCellColor];
-    } else {
-        
-        cell.contentView.backgroundColor = [UIColor whiteColor];
-    }
-    
     return cell;
 }
 
@@ -103,7 +95,6 @@
 
 
 #pragma mark - Navigation
-
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 
@@ -132,5 +123,15 @@
     
 }
 
+//Go to graph view
+- (void)openGraph{
+    
+    UIStoryboard *employeeViewController = [UIStoryboard storyboardWithName:@"Admin" bundle:nil];
+    UIViewController *initialViewController = [employeeViewController instantiateViewControllerWithIdentifier:@"TabBar"];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:initialViewController];
+    navigationController.navigationBarHidden = YES;
+    [self presentViewController:navigationController animated:YES completion:NULL];
+    
+}
 
 @end

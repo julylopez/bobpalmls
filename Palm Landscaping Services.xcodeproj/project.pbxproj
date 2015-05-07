@@ -11,7 +11,7 @@
 		89760EE01AF8B0BA009E8DC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760EDF1AF8B0BA009E8DC6 /* AppDelegate.m */; };
 		89760EE31AF8B0BA009E8DC6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760EE21AF8B0BA009E8DC6 /* LoginViewController.m */; };
 		89760EE61AF8B0BA009E8DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89760EE41AF8B0BA009E8DC6 /* Main.storyboard */; };
-		89760EE81AF8B0BA009E8DC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89760EE71AF8B0BA009E8DC6 /* Images.xcassets */; };
+		89760EE81AF8B0BA009E8DC6 /* close_icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 89760EE71AF8B0BA009E8DC6 /* close_icon.pdf */; };
 		89760EEB1AF8B0BA009E8DC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89760EE91AF8B0BA009E8DC6 /* LaunchScreen.xib */; };
 		89760EF71AF8B0BB009E8DC6 /* Palm_Landscaping_ServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760EF61AF8B0BB009E8DC6 /* Palm_Landscaping_ServicesTests.m */; };
 		89760F091AF8B31C009E8DC6 /* LoginData.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760F081AF8B31C009E8DC6 /* LoginData.m */; };
@@ -27,6 +27,16 @@
 		89760F2A1AF9F135009E8DC6 /* companyTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 89760F261AF9F135009E8DC6 /* companyTwo.png */; };
 		89760F2D1AF9FF16009E8DC6 /* JobsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760F2C1AF9FF16009E8DC6 /* JobsDetailViewController.m */; };
 		89760F301AFA4066009E8DC6 /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 89760F2F1AFA4066009E8DC6 /* DataHelper.m */; };
+		89D27ACE1AFB67FC0066C8B3 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D27ACD1AFB67FC0066C8B3 /* TabBarViewController.m */; };
+		89D27AD11AFB7AE10066C8B3 /* SiteAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D27AD01AFB7AE10066C8B3 /* SiteAViewController.m */; };
+		89D27AD41AFB7AED0066C8B3 /* SiteBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D27AD31AFB7AED0066C8B3 /* SiteBViewController.m */; };
+		89D27AD71AFB7AF80066C8B3 /* SiteCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D27AD61AFB7AF80066C8B3 /* SiteCViewController.m */; };
+		89D27ADA1AFB7B030066C8B3 /* SiteDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D27AD91AFB7B030066C8B3 /* SiteDViewController.m */; };
+		89D27AE01AFB7FAA0066C8B3 /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = 89D27ADC1AFB7FAA0066C8B3 /* A.png */; };
+		89D27AE11AFB7FAA0066C8B3 /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = 89D27ADD1AFB7FAA0066C8B3 /* B.png */; };
+		89D27AE71AFB80C80066C8B3 /* D.png in Resources */ = {isa = PBXBuildFile; fileRef = 89D27AE51AFB80C80066C8B3 /* D.png */; };
+		89D27AE91AFB811A0066C8B3 /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = 89D27AE81AFB811A0066C8B3 /* C.png */; };
+		89D27AEB1AFB81BA0066C8B3 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 89D27AEA1AFB81BA0066C8B3 /* graph.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +58,7 @@
 		89760EE11AF8B0BA009E8DC6 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "../Palm Landscaping Services/Controllers/LoginViewController.h"; sourceTree = "<group>"; };
 		89760EE21AF8B0BA009E8DC6 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = "../Palm Landscaping Services/Controllers/LoginViewController.m"; sourceTree = "<group>"; };
 		89760EE51AF8B0BA009E8DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89760EE71AF8B0BA009E8DC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89760EE71AF8B0BA009E8DC6 /* close_icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = close_icon.pdf; path = Assets/close_icon.pdf; sourceTree = "<group>"; };
 		89760EEA1AF8B0BA009E8DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		89760EF01AF8B0BA009E8DC6 /* Palm Landscaping ServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palm Landscaping ServicesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89760EF51AF8B0BB009E8DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +83,21 @@
 		89760F2C1AF9FF16009E8DC6 /* JobsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsDetailViewController.m; sourceTree = "<group>"; };
 		89760F2E1AFA4066009E8DC6 /* DataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHelper.h; sourceTree = "<group>"; };
 		89760F2F1AFA4066009E8DC6 /* DataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHelper.m; sourceTree = "<group>"; };
+		89D27ACC1AFB67FC0066C8B3 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		89D27ACD1AFB67FC0066C8B3 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		89D27ACF1AFB7AE10066C8B3 /* SiteAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteAViewController.h; sourceTree = "<group>"; };
+		89D27AD01AFB7AE10066C8B3 /* SiteAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteAViewController.m; sourceTree = "<group>"; };
+		89D27AD21AFB7AED0066C8B3 /* SiteBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteBViewController.h; sourceTree = "<group>"; };
+		89D27AD31AFB7AED0066C8B3 /* SiteBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteBViewController.m; sourceTree = "<group>"; };
+		89D27AD51AFB7AF80066C8B3 /* SiteCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteCViewController.h; sourceTree = "<group>"; };
+		89D27AD61AFB7AF80066C8B3 /* SiteCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteCViewController.m; sourceTree = "<group>"; };
+		89D27AD81AFB7B030066C8B3 /* SiteDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteDViewController.h; sourceTree = "<group>"; };
+		89D27AD91AFB7B030066C8B3 /* SiteDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteDViewController.m; sourceTree = "<group>"; };
+		89D27ADC1AFB7FAA0066C8B3 /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = A.png; path = Assets/A.png; sourceTree = "<group>"; };
+		89D27ADD1AFB7FAA0066C8B3 /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = B.png; path = Assets/B.png; sourceTree = "<group>"; };
+		89D27AE51AFB80C80066C8B3 /* D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = D.png; path = Assets/D.png; sourceTree = "<group>"; };
+		89D27AE81AFB811A0066C8B3 /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C.png; path = Assets/C.png; sourceTree = "<group>"; };
+		89D27AEA1AFB81BA0066C8B3 /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = graph.png; path = Assets/graph.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +142,6 @@
 				89760F221AF9F126009E8DC6 /* Assets */,
 				89760EDE1AF8B0BA009E8DC6 /* AppDelegate.h */,
 				89760EDF1AF8B0BA009E8DC6 /* AppDelegate.m */,
-				89760EE71AF8B0BA009E8DC6 /* Images.xcassets */,
 				89760EE91AF8B0BA009E8DC6 /* LaunchScreen.xib */,
 				89760F031AF8B184009E8DC6 /* Storyboards */,
 				89760F001AF8B16B009E8DC6 /* Views */,
@@ -181,6 +205,7 @@
 		89760F021AF8B16B009E8DC6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				89D27ADB1AFB7B100066C8B3 /* Site Controllers */,
 				89760EE11AF8B0BA009E8DC6 /* LoginViewController.h */,
 				89760EE21AF8B0BA009E8DC6 /* LoginViewController.m */,
 				89760F141AF8EDC6009E8DC6 /* AdminTableViewController.h */,
@@ -189,6 +214,8 @@
 				89760F181AF8EFF1009E8DC6 /* EmployeeTableViewController.m */,
 				89760F2B1AF9FF16009E8DC6 /* JobsDetailViewController.h */,
 				89760F2C1AF9FF16009E8DC6 /* JobsDetailViewController.m */,
+				89D27ACC1AFB67FC0066C8B3 /* TabBarViewController.h */,
+				89D27ACD1AFB67FC0066C8B3 /* TabBarViewController.m */,
 			);
 			name = Controllers;
 			path = "../Palm Landscaping Services.xcodeproj";
@@ -207,12 +234,33 @@
 		89760F221AF9F126009E8DC6 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				89D27ADC1AFB7FAA0066C8B3 /* A.png */,
+				89D27ADD1AFB7FAA0066C8B3 /* B.png */,
+				89D27AE81AFB811A0066C8B3 /* C.png */,
+				89D27AE51AFB80C80066C8B3 /* D.png */,
 				89760F231AF9F135009E8DC6 /* companyFour.png */,
 				89760F241AF9F135009E8DC6 /* companyOne.png */,
 				89760F251AF9F135009E8DC6 /* CompanyThree.png */,
 				89760F261AF9F135009E8DC6 /* companyTwo.png */,
+				89D27AEA1AFB81BA0066C8B3 /* graph.png */,
+				89760EE71AF8B0BA009E8DC6 /* close_icon.pdf */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		89D27ADB1AFB7B100066C8B3 /* Site Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89D27ACF1AFB7AE10066C8B3 /* SiteAViewController.h */,
+				89D27AD01AFB7AE10066C8B3 /* SiteAViewController.m */,
+				89D27AD21AFB7AED0066C8B3 /* SiteBViewController.h */,
+				89D27AD31AFB7AED0066C8B3 /* SiteBViewController.m */,
+				89D27AD51AFB7AF80066C8B3 /* SiteCViewController.h */,
+				89D27AD61AFB7AF80066C8B3 /* SiteCViewController.m */,
+				89D27AD81AFB7B030066C8B3 /* SiteDViewController.h */,
+				89D27AD91AFB7B030066C8B3 /* SiteDViewController.m */,
+			);
+			name = "Site Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,15 +343,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D27AE11AFB7FAA0066C8B3 /* B.png in Resources */,
+				89D27AE71AFB80C80066C8B3 /* D.png in Resources */,
+				89D27AEB1AFB81BA0066C8B3 /* graph.png in Resources */,
 				89760F2A1AF9F135009E8DC6 /* companyTwo.png in Resources */,
 				89760F291AF9F135009E8DC6 /* CompanyThree.png in Resources */,
 				89760F271AF9F135009E8DC6 /* companyFour.png in Resources */,
 				89760F101AF8EC02009E8DC6 /* Employee.storyboard in Resources */,
+				89D27AE91AFB811A0066C8B3 /* C.png in Resources */,
 				89760F281AF9F135009E8DC6 /* companyOne.png in Resources */,
 				89760F0E1AF8EBF1009E8DC6 /* Admin.storyboard in Resources */,
 				89760EE61AF8B0BA009E8DC6 /* Main.storyboard in Resources */,
+				89D27AE01AFB7FAA0066C8B3 /* A.png in Resources */,
 				89760EEB1AF8B0BA009E8DC6 /* LaunchScreen.xib in Resources */,
-				89760EE81AF8B0BA009E8DC6 /* Images.xcassets in Resources */,
+				89760EE81AF8B0BA009E8DC6 /* close_icon.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,11 +377,16 @@
 				89760F161AF8EDC6009E8DC6 /* AdminTableViewController.m in Sources */,
 				89760F091AF8B31C009E8DC6 /* LoginData.m in Sources */,
 				89760EE31AF8B0BA009E8DC6 /* LoginViewController.m in Sources */,
+				89D27AD71AFB7AF80066C8B3 /* SiteCViewController.m in Sources */,
+				89D27ADA1AFB7B030066C8B3 /* SiteDViewController.m in Sources */,
 				89760EE01AF8B0BA009E8DC6 /* AppDelegate.m in Sources */,
+				89D27ACE1AFB67FC0066C8B3 /* TabBarViewController.m in Sources */,
 				89760F2D1AF9FF16009E8DC6 /* JobsDetailViewController.m in Sources */,
 				89760F301AFA4066009E8DC6 /* DataHelper.m in Sources */,
 				89760EDD1AF8B0BA009E8DC6 /* main.m in Sources */,
+				89D27AD41AFB7AED0066C8B3 /* SiteBViewController.m in Sources */,
 				89760F0C1AF8B35D009E8DC6 /* UIColor+AppAdditions.m in Sources */,
+				89D27AD11AFB7AE10066C8B3 /* SiteAViewController.m in Sources */,
 				89760F191AF8EFF1009E8DC6 /* EmployeeTableViewController.m in Sources */,
 				89760F1C1AF8FD0D009E8DC6 /* JobsList.m in Sources */,
 			);

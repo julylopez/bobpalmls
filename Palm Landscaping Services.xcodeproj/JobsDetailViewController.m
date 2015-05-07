@@ -20,9 +20,9 @@
 
     //Change view element colors
     self.view.backgroundColor = [UIColor appBGColor];
-    self.logoImageView.image = [UIImage imageNamed:@"companyOne.png"];
+    [[UINavigationBar appearance] setTintColor:[UIColor darkGrayColor]];
+    self.navigationController.navigationBar.tintColor = [UIColor darkGrayColor];
 
-    
     //Assign text properties passed from AdminTableViewController to UILabel
     _jobValueLabel.text = _jobText;
     _dateValueLabel.text = _dateText;
