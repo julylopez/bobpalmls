@@ -11,9 +11,9 @@
 <p>username: bob</p>
 <p>password: password</p>
 
-Here's my "post-mortem": https://www.dropbox.com/s/aehtqq5t1yzckoy/Summary.pdf?dl=0
+Here's my "post-mortem": [deleted]
 
-Oh! Here are the bonus questions: https://www.dropbox.com/s/89sbkilwbc3uwui/Bonus_Questions.pdf?dl=0
+Oh! Here are the bonus questions: [deleted]
 
 </br>
 
